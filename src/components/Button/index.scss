@@ -1,0 +1,31 @@
+button {
+  height: 50px;
+  padding: 15px;
+
+  background-color: #969696;
+  color: #ffffff;
+  
+  font: 500 16px "Roboto", sans-serif;
+
+  border-radius: 8px;
+  border: 0;
+
+  cursor: pointer;
+
+  transition: filter 0.2s;
+
+  &:hover {
+    filter: brightness(0.9);
+  }
+}
+
+.google {
+  background-color: #EA4335;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  > img {
+    margin-right: 10px;
+  }
+}
